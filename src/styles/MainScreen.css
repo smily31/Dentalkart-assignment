@@ -1,0 +1,120 @@
+.container {
+  width: 52.7rem;
+  margin: 8rem 14rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  height: 4rem;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 18rem;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0;
+  width: 22rem;
+  height: 2.75rem;
+  gap: 0.75rem;
+}
+
+.std {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: black;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #7d8398;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.625rem 1.25rem;
+  width: 10.25rem;
+  height: 2.75rem;
+  border: 1px solid rgba(125, 131, 152, 0.3);
+  box-shadow: 0px 3px 6px rgba(18, 18, 18, 0.03);
+  border-radius: 0.38rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.imp-btn {
+  background: #ffffff;
+  color: #121212;
+}
+
+.exp-btn {
+  background: #121212;
+  color: #ffffff;
+  padding: 0;
+}
+
+.icon {
+  width: 14px;
+  height: 15px;
+}
+
+.outer-box {
+  width: 52.7rem;
+  border: 1px solid #eeeaf5;
+  border-radius: 0.5rem;
+}
+
+.outer-box th,
+.outer-box td {
+  width: 20%;
+}
+
+.outer-box thead tr {
+  display: flex;
+  padding: 0;
+  width: 52.7rem;
+  height: 2.56rem;
+  background: #f4f0ff;
+  border-bottom: 1px solid #eeeaf5;
+}
+
+.outer-box thead th {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.outer-box tbody tr {
+  display: flex;
+  padding: 0;
+  width: 52.7rem;
+  height: 5.75rem;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeaf5;
+}
+
+.outer-box tbody td {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #000000;
+}
